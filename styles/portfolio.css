@@ -231,6 +231,36 @@ nav .menu {
   font-size: 16px;
   margin-bottom: 16px;
 }
-
-
-
+.footer{
+  max-width: 1600px;
+  background-color: #001931;
+  margin-top: 120px;
+}
+.footer .footer-content{
+  display: flex;
+  align-items: center;
+}
+.footer-content .footer-logo{
+  padding: 120px 120px;
+}
+.footer-content .footer-link p{
+  margin-bottom: 6px;
+}
+.footer-content .footer-link{
+  color: white;
+  font-size: 18px;
+  padding-left: 950px;
+}
+hr{
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.103);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer .footer-bottom{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
