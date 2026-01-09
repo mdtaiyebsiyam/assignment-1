@@ -16,7 +16,6 @@
   margin-right: 120px;
   color: #ffffff;
   font-size: 16px;
-
 }
 
 .logo img {
@@ -27,7 +26,6 @@
 /* main style */
 nav {
   width: 1600px;
-  /* border: 1px solid rebeccapurple; */
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -80,35 +78,35 @@ nav .menu {
   gap: 100px;
 }
 
-.about-section .button-bottom .start-button{
+.about-section .button-bottom .start-button {
   width: 251px;
   height: 52px;
   background-color: #30b868;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 4px;
   border: none;
   font-size: 16px;
 }
-.about-section .button-bottom .work-button{
+.about-section .button-bottom .work-button {
   width: 198px;
   height: 52px;
   background: none;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 15px;
   border: 1px solid white;
 }
-#note-section{
+#note-section {
   max-width: 1600px;
   margin-top: 44px;
   margin-left: 120px;
 }
-#note-section h2{
+#note-section h2 {
   font-size: 48px;
   font-weight: bold;
   max-width: 1360px;
   text-align: center;
 }
-#note-section p{
+#note-section p {
   max-width: 1360px;
   font-size: 15px;
   font-weight: 400px;
@@ -116,35 +114,86 @@ nav .menu {
   margin-top: 16px;
   margin-bottom: 44px;
 }
-.card-section{
+.card-section {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.card{
+.card {
   width: 322px;
   border-radius: 8px;
   padding: 24px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.089)
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.089);
 }
-.card-last{
+.card-last {
   max-height: 310px;
 }
-.card h3{
+.card h3 {
   font-size: 24px;
   font-weight: 600px;
   text-align: center;
   margin-top: 10px;
 }
-.card p{
+.card p {
   text-align: center;
   justify-content: center;
   margin-top: 16px;
 }
-.card img{
-  background-color: #F95555;
+.card img {
+  background-color: #f95555;
   padding: 10px 10px;
   border-radius: 100%;
   margin-top: 69.5px;
   margin-left: 110px;
+}
+#design-section {
+  max-width: 1600px;
+  max-height: 840px;
+}
+.about-content {
+  max-width: 1360px;
+  max-height: 600px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.about-content .photo {
+  width: 600px;
+  height: 600px;
+  padding-top: 120px;
+}
+.about-content .content{
+  max-width: 700px;
+  max-height: 397px;
+}
+.content{
+  margin-top: 260px;
+  margin-right: 185px;
+}
+.content a{
+  font-size: 16px;
+  color: #30b868;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.content h2{
+  font-size: 48px;
+  font-weight: 700px;
+  color: #001931;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.content p{
+  font-size: 16px;
+  font-weight: 400px;
+  max-width: 700px;
+  max-height: 600px;
+  color: #627382;
+  padding-bottom: 16px;
+}
+.content ul li{
+  list-style: none;
+  padding-bottom: 16px;
+}
+.content ul li i{
+  color: #30b868;
 }
