@@ -1,32 +1,31 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* shared style */
-.font-inter{
+.font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-.btn{
-  background-color: #30B868;
+.btn {
+  background-color: #30b868;
   border: none;
   border-radius: 4px;
   padding: 12px 16px;
   margin-right: 120px;
-  color: #FFFFFF;
+  color: #ffffff;
+  font-size: 16px;
+
 }
 
-.logo img{
+.logo img {
   margin-left: 120px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 /* main style */
-header{
-  background-color: #FFFFFF;
-}
-nav{
+nav {
   width: 1600px;
   /* border: 1px solid rebeccapurple; */
   margin: 0px auto;
@@ -34,8 +33,118 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-nav .menu{
+nav .menu {
   display: flex;
   list-style-type: none;
   gap: 32px;
+}
+#about {
+  width: 1600px;
+  height: 674px;
+  background: url(../assets/hero-bg.png);
+}
+#about .about-section {
+  padding-top: 205.5px;
+  padding-left: 350px;
+  width: 1360px;
+  height: 379px;
+  text-align: center;
+}
+.about-content .button-top button {
+  max-width: 1360px;
+  color: #30b868;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  text-align: center;
+}
+.about-section .about-content .heading h2 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-left: 0%;
+  margin: 15px -69.6px;
+}
+.about-section .about-content .heading h2 span {
+  color: #30b868;
+}
+.about-section .about-content .peragraph p {
+  color: #ffffff;
+  width: 1360;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 35px;
+}
+.about-section .button-bottom .start-button .work-button {
+  display: flex;
+  gap: 100px;
+}
+
+.about-section .button-bottom .start-button{
+  width: 251px;
+  height: 52px;
+  background-color: #30b868;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+.about-section .button-bottom .work-button{
+  width: 198px;
+  height: 52px;
+  background: none;
+  color: #FFFFFF;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+#note-section{
+  max-width: 1600px;
+  margin-top: 44px;
+  margin-left: 120px;
+}
+#note-section h2{
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 1360px;
+  text-align: center;
+}
+#note-section p{
+  max-width: 1360px;
+  font-size: 15px;
+  font-weight: 400px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
+.card-section{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.card{
+  width: 322px;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.089)
+}
+.card-last{
+  max-height: 310px;
+}
+.card h3{
+  font-size: 24px;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 10px;
+}
+.card p{
+  text-align: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.card img{
+  background-color: #F95555;
+  padding: 10px 10px;
+  border-radius: 100%;
+  margin-top: 69.5px;
+  margin-left: 110px;
 }
