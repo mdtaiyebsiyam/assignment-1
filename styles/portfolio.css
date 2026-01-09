@@ -59,6 +59,7 @@ nav .menu {
 .about-section .about-content .heading h2 {
   font-size: 72px;
   font-weight: bold;
+  color: white;
   margin-left: 0%;
   margin: 15px -69.6px;
 }
@@ -128,7 +129,7 @@ nav .menu {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.089);
 }
 .card-last {
-  max-height: 310px;
+  max-height: 307px;
 }
 .card h3 {
   font-size: 24px;
