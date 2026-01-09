@@ -94,6 +94,7 @@ nav .menu {
   color: #ffffff;
   margin-left: 15px;
   border: 1px solid white;
+  border-radius: 4px;
 }
 #note-section {
   max-width: 1600px;
@@ -113,6 +114,7 @@ nav .menu {
   text-align: center;
   margin-top: 16px;
   margin-bottom: 44px;
+  color: #627382;
 }
 .card-section {
   display: flex;
@@ -149,6 +151,7 @@ nav .menu {
 #design-section {
   max-width: 1600px;
   max-height: 840px;
+  margin-bottom: 250px;
 }
 .about-content {
   max-width: 1360px;
@@ -161,28 +164,28 @@ nav .menu {
   height: 600px;
   padding-top: 120px;
 }
-.about-content .content{
+.about-content .content {
   max-width: 700px;
   max-height: 397px;
 }
-.content{
+.content {
   margin-top: 260px;
   margin-right: 185px;
 }
-.content a{
+.content a {
   font-size: 16px;
   color: #30b868;
   text-decoration: none;
   text-transform: uppercase;
 }
-.content h2{
+.content h2 {
   font-size: 48px;
   font-weight: 700px;
   color: #001931;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.content p{
+.content p {
   font-size: 16px;
   font-weight: 400px;
   max-width: 700px;
@@ -190,10 +193,44 @@ nav .menu {
   color: #627382;
   padding-bottom: 16px;
 }
-.content ul li{
+.content ul li {
   list-style: none;
   padding-bottom: 16px;
 }
-.content ul li i{
+.content ul li i {
   color: #30b868;
 }
+#get-ready {
+  max-width: 1600px;
+  max-height: 507px;
+}
+#get-ready .ready-content{
+  text-align: center;
+  background-color: #F7F6F2;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 80px 80px;
+}
+.ready-content h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.ready-content p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 16px;
+}
+.ready-content .btn1{
+  background-color: #30b868;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+
+
